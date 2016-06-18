@@ -28,13 +28,6 @@ $(document).ready(function(){
         }
     });
 
-    function current_width(){
-    	if ($(window).width() < 580){
-    		$('.col-xs-3').removeClass(".col-xs-3")
-    	} 
-    }
-    current_width();
-    $(window).resize(current_width());
 });
 
 $("#expand").click(function(){

@@ -1,5 +1,8 @@
 /*section setting*/
-
+*{
+	margin:0;
+	padding:0;
+}
 section{
 	min-height: 100vh;
 	max-height: 100vh;
