@@ -1,22 +1,5 @@
 $(document).ready(function(){
-	$(window).scroll(function() {
-		if ($(document).scrollTop() > 1110){
-			$(".navbar").css("background-color", "rgba(255,165,0,1)");
-			$("#tab1").removeClass("active");
-			$("#tab2").removeClass("active");
-			$("#tab3").addClass("active")
-		}else if ($(document).scrollTop() > 550) { 
-          	$(".navbar").css("background-color", "rgba(1,1,1,1)");
-          	$("#tab1").removeClass("active");
-			$("#tab2").addClass("active");
-			$("#tab3").removeClass("active")
-        } else {
-         	$(".navbar").css("background-color", "rgba(0,0,0,0)");
-         	$("#tab1").addClass("active");
-			$("#tab2").removeClass("active");
-			$("#tab3").removeClass("active")
-        }
-    });
+
 
     $(window).scroll(function() {
 		if ($(document).scrollTop() > 350) { 
