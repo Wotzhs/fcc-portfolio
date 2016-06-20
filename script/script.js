@@ -5,9 +5,9 @@ $(document).ready(function(){
 		var section2 = $("#portfolio").offset().top;
 		var section3 = $("#contact").offset().top;
 
-		if($(document).scrollTop() >= section1 && $(document).scrollTop() < (section2-100)){
+		if($(document).scrollTop() >= section1 && $(document).scrollTop() < (section2-50)){
 			$('.navbar').css("background-color", "rgba(0,0,0,0)")
-		}else if($(document).scrollTop() >= (section2-100) && $(document).scrollTop() < section3){
+		}else if($(document).scrollTop() >= (section2-50) && $(document).scrollTop() < section3){
 			$('.navbar').css("background-color", "rgba(1,1,1,1)")
 		}else if($(document).scrollTop() >= section3){
 			$('.navbar').css("background-color", "rgba(255,165,0,1)")
