@@ -104,6 +104,12 @@ img{
 	}
 }
 
+@media (max-width: 400px){
+	#projects-intro{
+		padding-top:15%;
+	}
+}
+
 /*end of carousel setting*/
 
 
