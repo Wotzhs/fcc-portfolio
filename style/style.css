@@ -83,9 +83,9 @@ img{
 }
 
 @media (max-width: 767px){
-	#projects{
+/*	#projects{
 		display: none;
-	}
+	}*/
 	#projects-intro{
 		padding-top:10%;
 	}
@@ -94,7 +94,7 @@ img{
 		margin-left:3%;
 	}
 }
-
+/*
 @media (max-width: 580px){
 	.desc{
 		display:none;
@@ -102,7 +102,7 @@ img{
 	. {
 		display:block;
 	}
-}
+}*/
 
 @media (max-width: 400px){
 	#projects-intro{

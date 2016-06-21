@@ -14,6 +14,7 @@ $(document).ready(function(){
 		}
 	})
 
+
     $(window).scroll(function() {
 		if ($(document).scrollTop() > 350) { 
           	$("#intro").css("color", "rgba(255,255,255,0)");
